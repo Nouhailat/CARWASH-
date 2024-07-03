@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TandiifCom.views.Page4">
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#004040" Offset="0.0" />
+            <GradientStop Color="#0000" Offset="9.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <StackLayout Padding="10" Spacing="5" VerticalOptions="StartAndExpand">
+        <Label Text="A Propos Nous" 
+               FontSize="28" 
+               HorizontalOptions="Start" 
+               VerticalOptions="Start" 
+               Margin="10,20,0,0"
+               TextColor="White"
+               FontAttributes="Bold"/>
+
+        <Frame BackgroundColor="Transparent" CornerRadius="10" Padding="1" Margin="0">
+            <StackLayout Spacing="10">
+                <Label Text="- Nous offrons des services fiables et professionnels pour votre maison, bureau ou véhicule."
+                       TextColor="White"
+                       FontSize="18"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"/>
+                <Label Text="- Utilisation de techniques de nettoyage avancées et de produits respectueux de l'environnement."
+                       TextColor="White"
+                       FontSize="18"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"/>
+                <Label Text="- Services incluant lavage à haute pression, nettoyage des tapis, lavage des vitres, et plus."
+                       TextColor="White"
+                       FontSize="18"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <Image Source="https://www.resolution-acoustics.be/wp-content/uploads/2020/03/image-3.png"
+               Aspect="AspectFit"
+               HeightRequest="200"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+        <!-- Frame avec un label bien défini -->
+        <Frame BackgroundColor="#004040" CornerRadius="12" Padding="11" Margin="14">
+            <Label Text="Votre Confort et Notre priorité"
+           TextColor="White"
+           FontSize="20"
+           HorizontalOptions="Start"
+           VerticalOptions="Center"
+           HorizontalTextAlignment="Start"/>
+        </Frame>
+
+    </StackLayout>
+</ContentPage>

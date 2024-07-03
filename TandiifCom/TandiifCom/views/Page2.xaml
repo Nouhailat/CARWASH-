@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TandiifCom.views.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!-- First image with text overlay and gradient -->
+            <Grid>
+                <Image Source="https://www.resolution-acoustics.be/wp-content/uploads/2020/03/image-3.png"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+                <BoxView Color="Black" 
+                         Opacity="0.5" 
+                         VerticalOptions="FillAndExpand" 
+                         HorizontalOptions="FillAndExpand"/>
+                <Label Text="Service a domicile et rapide"
+                       TextColor="White"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       FontSize="Medium"/>
+            </Grid>
+
+            <!-- Second image with text overlay and gradient -->
+            <Grid>
+                <Image Source="https://www.resolution-acoustics.be/wp-content/uploads/2020/03/image-3.png"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+                <BoxView Color="Black" 
+                         Opacity="0.5" 
+                         VerticalOptions="FillAndExpand" 
+                         HorizontalOptions="FillAndExpand"/>
+                <Label Text="Utilisation des produits de bon qualité"
+                       TextColor="White"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       FontSize="Medium"/>
+            </Grid>
+
+            <!-- Third image with text overlay and gradient -->
+            <Grid>
+                <Image Source="https://www.resolution-acoustics.be/wp-content/uploads/2020/03/image-3.png"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+                <BoxView Color="Black" 
+                         Opacity="0.5" 
+                         VerticalOptions="FillAndExpand" 
+                         HorizontalOptions="FillAndExpand"/>
+                <Label Text="Service"
+                       TextColor="White"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       FontSize="Medium"/>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TandiifCom.menu.FlyoutPage1Detail"
+             Title="Detail">
+    <AbsoluteLayout>
+        <!-- CarouselView for background images -->
+        <CarouselView x:Name="BackgroundCarousel"
+                      AbsoluteLayout.LayoutBounds="0,0,1,1"
+                      AbsoluteLayout.LayoutFlags="All"
+                      VerticalOptions="FillAndExpand"
+                      Loop="True"
+                      PositionChanged="OnCarouselPositionChanged">
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>https://www.resolution-acoustics.be/wp-content/uploads/2020/03/image-3.png</x:String>
+                    <x:String>https://www.resolution-acoustics.be/wp-content/uploads/2020/03/image-3.png</x:String>
+                    <x:String>https://lecolemoderne.fr/wp-content/uploads/2022/10/comment-devenir-architect-d-interieur.png</x:String>
+                </x:Array>
+            </CarouselView.ItemsSource>
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding .}"
+                           Aspect="AspectFill"
+                           VerticalOptions="FillAndExpand"
+                           HorizontalOptions="FillAndExpand"/>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <!-- Gradient overlay for welcome text -->
+        <BoxView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                 AbsoluteLayout.LayoutFlags="All"
+                 Color="Black"
+                 Opacity="0.2"/>
+
+        <!-- Welcome label -->
+        <Label Text="Bienvenu dans TandiifCom service!" 
+               FontSize="28" 
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="White"
+               FontAttributes="Bold"
+               AbsoluteLayout.LayoutBounds="0.5,0.2,AutoSize,AutoSize" 
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <!-- Swipe instruction label -->
+        <Label Text="Scroller pour voir plus des images" 
+               FontSize="16" 
+               HorizontalOptions="Center" 
+               VerticalOptions="End" 
+               Margin="10"
+               TextColor="White"
+               AbsoluteLayout.LayoutBounds="0.5,0.95,AutoSize,AutoSize" 
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+</ContentPage>

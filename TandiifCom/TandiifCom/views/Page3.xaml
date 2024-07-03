@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TandiifCom.views.Page3">
+
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#008080" Offset="0.0" />
+            <GradientStop Color="#004040" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <StackLayout Padding="20" Spacing="20" VerticalOptions="CenterAndExpand">
+        <Label Text="Bienvenue dans TandiifCom service!" 
+               FontSize="24" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Start" 
+               Margin="10"
+               TextColor="White"
+               FontAttributes="Bold"/>
+
+        <!-- Image instead of Font Awesome icon for "Réserver Contactez-nous" -->
+        <Frame BackgroundColor="#FFFFFF" CornerRadius="10" Padding="15" Margin="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <Image Source="reserve_icon.png" WidthRequest="24" HeightRequest="24" Aspect="AspectFit" />
+                <Label Text="Réserver Contactez-nous"
+                       TextColor="#008080"
+                       FontSize="20"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Image instead of Font Awesome icon for phone number -->
+        <Frame BackgroundColor="#FFFFFF" CornerRadius="10" Padding="15" Margin="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <Image Source="https://static.vecteezy.com/system/resources/previews/003/720/498/original/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg" WidthRequest="24" HeightRequest="24" Aspect="AspectFit" />
+                <Label Text="+212 625-683588"
+                       TextColor="#008080"
+                       FontSize="20"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Image instead of Font Awesome icon for website -->
+        <Frame BackgroundColor="#FFFFFF" CornerRadius="10" Padding="15" Margin="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <Image Source="https://w7.pngwing.com/pngs/731/937/png-transparent-mobile-phones-telephone-handset-phone-icon-miscellaneous-angle-telephone-call-thumbnail.png" WidthRequest="24" HeightRequest="24" Aspect="AspectFit" />
+                <Label Text="www.Tandiif.com"
+                       TextColor="#008080"
+                       FontSize="20"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

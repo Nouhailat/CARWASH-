@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EOuGnS+xRb4dkzXTYsu4yYj1l2LHuWDEqK+C8uu+Ia4vAloebo//oQUAg4QjbJPOS8H5Yy00erXoTBM3PT27AA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nouha\\source\\repos\\TandiifCom\\TandiifCom\\TandiifCom.iOS\\TandiifCom.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nouha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\nouha\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\nouha\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
